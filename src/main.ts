@@ -1,5 +1,3 @@
-import { argv } from "yargs";
-
 import { fetchLatestData } from "./tasks/fetch-latest-data";
 
 import { getBrowserPage } from "./helpers/get-browser-page";
@@ -10,7 +8,7 @@ import { signIn } from "./helpers/sign-in";
 import { getCleanedData } from "./utils/get-cleaned-data";
 import { selectSquad } from "./tasks/select-squad";
 
-export const main = async ({}) => {
+export const main = async () => {
   const { browser, page } = await getBrowserPage();
 
   const currentRound = await getCurrentRound({ page });
@@ -26,10 +24,6 @@ export const main = async ({}) => {
 
   const latestData = await fetchLatestData({ page });
   const latestDataCleaned = await getCleanedData({ data: latestData, roundsCount });
-
-  /**
-   * - data per stage (for trends)
-   */
 
   /**
    * - this should be separated into selecting squad and first team
@@ -61,7 +55,7 @@ export const main = async ({}) => {
 };
 
 if (require.main === module) {
-  main(argv);
+  main();
 }
 
 /**
