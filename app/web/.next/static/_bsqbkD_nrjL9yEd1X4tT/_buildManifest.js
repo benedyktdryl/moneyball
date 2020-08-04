@@ -1,0 +1,1 @@
+self.__BUILD_MANIFEST = (function(a){return {"/charts/points-per-price":[a],"/charts/points-per-round":["static\u002Fchunks\u002F2edb282b.38a0406854412069fa42.js",a]}}("static\u002Fchunks\u002F909a6038aadc0b119f62d062fe3303c0cf324de2.f9b09983df708569820a.js"));self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()

@@ -1,0 +1,48 @@
+{
+  "devFiles": [],
+  "lowPriorityFiles": [
+    "static/_bsqbkD_nrjL9yEd1X4tT/_buildManifest.js",
+    "static/_bsqbkD_nrjL9yEd1X4tT/_ssgManifest.js"
+  ],
+  "pages": {
+    "/": [
+      "static/runtime/webpack-c212667a5f965e81e004.js",
+      "static/chunks/framework.07291530f7f5468a1330.js",
+      "static/chunks/754f025d93b66546dd6b9ac96dc8e5ed8d9e5579.5854418c709a0474d7bb.js",
+      "static/runtime/main-f7715f9497ffbedb6a61.js"
+    ],
+    "/_app": [
+      "static/runtime/webpack-c212667a5f965e81e004.js",
+      "static/chunks/framework.07291530f7f5468a1330.js",
+      "static/chunks/754f025d93b66546dd6b9ac96dc8e5ed8d9e5579.5854418c709a0474d7bb.js",
+      "static/runtime/main-f7715f9497ffbedb6a61.js"
+    ],
+    "/_error": [
+      "static/runtime/webpack-c212667a5f965e81e004.js",
+      "static/chunks/framework.07291530f7f5468a1330.js",
+      "static/runtime/main-f7715f9497ffbedb6a61.js"
+    ],
+    "/_polyfills": [
+      "static/runtime/polyfills-ccef3c768f77be0cf43e.js"
+    ],
+    "/charts/points-per-price": [
+      "static/runtime/webpack-c212667a5f965e81e004.js",
+      "static/chunks/framework.07291530f7f5468a1330.js",
+      "static/chunks/909a6038aadc0b119f62d062fe3303c0cf324de2.f9b09983df708569820a.js",
+      "static/runtime/main-f7715f9497ffbedb6a61.js"
+    ],
+    "/charts/points-per-round": [
+      "static/runtime/webpack-c212667a5f965e81e004.js",
+      "static/chunks/framework.07291530f7f5468a1330.js",
+      "static/chunks/2edb282b.38a0406854412069fa42.js",
+      "static/chunks/909a6038aadc0b119f62d062fe3303c0cf324de2.f9b09983df708569820a.js",
+      "static/runtime/main-f7715f9497ffbedb6a61.js"
+    ],
+    "/index": [
+      "static/runtime/webpack-c212667a5f965e81e004.js",
+      "static/chunks/framework.07291530f7f5468a1330.js",
+      "static/chunks/754f025d93b66546dd6b9ac96dc8e5ed8d9e5579.5854418c709a0474d7bb.js",
+      "static/runtime/main-f7715f9497ffbedb6a61.js"
+    ]
+  }
+}

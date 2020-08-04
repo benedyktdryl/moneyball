@@ -20,3 +20,5 @@
 - https://www.wikiwand.com/en/Recurrent_neural_network
 - https://www.wikiwand.com/en/Hidden_Markov_model
 - https://www.wikiwand.com/en/Cross-correlation
+
+- https://github.com/distributions-io/poisson-pmf#readme
